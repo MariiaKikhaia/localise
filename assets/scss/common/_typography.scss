@@ -1,13 +1,32 @@
+@use "../presets" as *;
+@use "../mixins" as *;
+
 *,
 *::before *::after {
   box-sizing: border-box;
 }
 
 html {
-  font-size: 16px;
+  font-size: $font-size-root;
 }
 
 body {
-  font-size: 15px;
-  font-family: "Graphik LCG", sans-serif;
+  font-size: $font-size-inherit;
+  font-family: $font-family;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1{
+
+}
+
+h2{
+
+}
+
+h3{
+  
 }
